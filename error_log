@@ -1,0 +1,115 @@
+[05-Aug-2023 10:44:43 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 10:44:43 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 10:48:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 10:48:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:44:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:44:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:46:17 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:46:17 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:46:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:46:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:48:57 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:48:57 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:52:33 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:52:33 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:53:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:53:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:53:48 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 11:53:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 11:56:36 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'test'@'localhost' (using password: YES) in /home1/ruchiezn/public_html/includes/config.php:30
+Stack trace:
+#0 /home1/ruchiezn/public_html/includes/config.php(30): mysqli->__construct('localhost', 'test', Object(SensitiveParameterValue), 'bhambrisolar')
+#1 /home1/ruchiezn/public_html/verifyLogin.php(3): include('/home1/ruchiezn...')
+#2 {main}
+  thrown in /home1/ruchiezn/public_html/includes/config.php on line 30
+[05-Aug-2023 11:56:38 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'test'@'localhost' (using password: YES) in /home1/ruchiezn/public_html/includes/config.php:30
+Stack trace:
+#0 /home1/ruchiezn/public_html/includes/config.php(30): mysqli->__construct('localhost', 'test', Object(SensitiveParameterValue), 'bhambrisolar')
+#1 /home1/ruchiezn/public_html/verifyLogin.php(3): include('/home1/ruchiezn...')
+#2 {main}
+  thrown in /home1/ruchiezn/public_html/includes/config.php on line 30
+[05-Aug-2023 12:02:40 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:02:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:03:24 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:03:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:03:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:03:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:05 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:05:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:11:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:11:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:12:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:12:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:55:06 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:55:06 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:55:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:55:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 12:55:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 12:55:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 16:46:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 16:46:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 18:44:59 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 18:44:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[05-Aug-2023 22:54:07 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[05-Aug-2023 22:54:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 09:39:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 09:39:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 09:39:37 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 09:39:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 14:55:56 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 14:55:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 15:01:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 15:01:20 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 16:07:23 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 16:07:23 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 21:15:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 21:15:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[06-Aug-2023 23:09:08 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[06-Aug-2023 23:09:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[07-Aug-2023 03:09:31 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[07-Aug-2023 03:09:31 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[07-Aug-2023 05:31:53 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[07-Aug-2023 05:31:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[07-Aug-2023 05:32:09 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[07-Aug-2023 05:32:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[07-Aug-2023 05:32:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[07-Aug-2023 05:32:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[07-Aug-2023 05:36:21 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/index.php on line 3
+[07-Aug-2023 05:36:21 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/index.php:1) in /home1/ruchiezn/public_html/index.php on line 266
+[07-Aug-2023 05:38:20 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/login.php on line 2
+[07-Aug-2023 05:39:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/write.php:28) in /home1/ruchiezn/public_html/write.php on line 48
+[07-Aug-2023 05:40:49 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/write.php:28) in /home1/ruchiezn/public_html/write.php on line 48
+[07-Aug-2023 05:40:50 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/write.php:28) in /home1/ruchiezn/public_html/write.php on line 48
+[07-Aug-2023 05:40:52 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/write.php:28) in /home1/ruchiezn/public_html/write.php on line 48
+[07-Aug-2023 11:26:01 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /home1/ruchiezn/public_html/login.php on line 2
+[07-Aug-2023 11:26:07 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ruchiezn_ruchi'@'localhost' (using password: YES) in /home1/ruchiezn/public_html/includes/config.php:30
+Stack trace:
+#0 /home1/ruchiezn/public_html/includes/config.php(30): mysqli->__construct('localhost', 'ruchiezn_ruchi', Object(SensitiveParameterValue), 'ruchiezn_bhambr...')
+#1 /home1/ruchiezn/public_html/verifyLogin.php(3): include('/home1/ruchiezn...')
+#2 {main}
+  thrown in /home1/ruchiezn/public_html/includes/config.php on line 30
+[07-Aug-2023 11:29:37 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'ruchiezn_ruchi'@'localhost' (using password: YES) in /home1/ruchiezn/public_html/includes/config.php:30
+Stack trace:
+#0 /home1/ruchiezn/public_html/includes/config.php(30): mysqli->__construct('localhost', 'ruchiezn_ruchi', Object(SensitiveParameterValue), 'ruchiezn_bhambr...')
+#1 /home1/ruchiezn/public_html/verifyLogin.php(3): include('/home1/ruchiezn...')
+#2 {main}
+  thrown in /home1/ruchiezn/public_html/includes/config.php on line 30
+[07-Aug-2023 11:31:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home1/ruchiezn/public_html/write.php:28) in /home1/ruchiezn/public_html/write.php on line 48
